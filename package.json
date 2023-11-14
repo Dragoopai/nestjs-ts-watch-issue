@@ -1,0 +1,19 @@
+{
+  "name": "ts-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "workspaces": [
+    "/packages/*"
+  ],
+  "license": "ISC",
+  "scripts": {
+    "dev": "turbo dev"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "turbo": "^1.10.16"
+  }
+}
