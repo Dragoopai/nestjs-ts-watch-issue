@@ -1,5 +1,5 @@
 export class Service {
-    log() {
+    getItems() {
         this.getMessages()
             .forEach((it) => console.log(it));
     }
