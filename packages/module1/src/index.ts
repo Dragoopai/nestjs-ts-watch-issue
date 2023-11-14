@@ -1,7 +1,6 @@
-export class Logger {
-    log() {
-        this.getMessages()
-            .forEach((it) => console.log(it));
+export class Service {
+    getItems() {
+        return this.getMessages();
     }
     private getMessages = () =>
         [

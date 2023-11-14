@@ -6,7 +6,8 @@
   "keywords": [],
   "author": "",
   "workspaces": [
-    "/packages/*"
+    "/packages/*",
+    "/apps/*"
   ],
   "license": "ISC",
   "scripts": {
