@@ -1,4 +1,4 @@
-export class Logger {
+export class Service {
     log() {
         this.getMessages()
             .forEach((it) => console.log(it));
