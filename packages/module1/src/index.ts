@@ -1,7 +1,6 @@
 export class Service {
     getItems() {
-        this.getMessages()
-            .forEach((it) => console.log(it));
+        return this.getMessages()
     }
     private getMessages = () =>
         [
