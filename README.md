@@ -1,4 +1,4 @@
-# ts-monorepo
+# NestJS Monorepo Watch Issue
 
 This repository showcases an issue I have to watch on code changes in a monorepo with Typescript and nestjs.
 
