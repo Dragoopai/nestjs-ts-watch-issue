@@ -1,2 +1,2 @@
-import {Logger} from "module1";
-new Logger().log()
+import {Service} from "module1";
+new Service().getItems();
