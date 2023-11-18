@@ -16,9 +16,9 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
-  },
-  "references": [
-    {"path": "../../packages/module1"}
-  ]
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      ":module1": ["../../packages/module1"]
+    }
+  }
 }

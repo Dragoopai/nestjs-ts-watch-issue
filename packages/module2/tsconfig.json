@@ -3,6 +3,9 @@
   "compilerOptions": {
     "outDir": "./dist",
     "rootDir": "./src",
+    "paths": {
+      ":module1": ["../../packages/module1"]
+    }
   },
   "include": ["src/**/*", "tests/**/*", "*.js", "*.ts"],
 

@@ -3,9 +3,6 @@
   "version": "0.0.0",
   "main": "./dist/index.js",
   "scripts": {
-    "dev": "tsc -b -w"
-  },
-  "dependencies": {
-    "module1": "*"
+    "dev": "tsc -b -w "
   }
 }
